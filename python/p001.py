@@ -3,3 +3,11 @@
 # we get 3, 5, 6 and 9. 
 # The sum of these multiples is 23.
 # Find the sum of all the multiples of 3 or 5 below 1000.
+
+# ------------------------------------------------------------------------
+# Solution #1 from:
+# https://github.com/FrankKair/polyglot-euler/blob/master/src/001/p001.py
+
+print(sum([n for n in range(1000) if n % 3 == 0 or n % 5 == 0]))
+
+# ------------------------------------------------------------------------
